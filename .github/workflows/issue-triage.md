@@ -102,6 +102,17 @@ Define when to recommend each suggested-team label:
 - suggested-team/support-triage
 -->
 
+  Categorize the priority of the bug report as follows:
+    -priority/p0 - complete outagae or unrecoverable loss
+    -priority/p1 - blocking bug with no workload. 
+    -priority/p2 - flow impact bug or major bug with workaround.
+
+  Suggested team routing: 
+    -suggested-team/workflows = Actions workflow failure
+    -suggested-team/developer-experience - Need to reach out directly for more information
+    -suggested-team/support-triage - Escalate to tech support team
+
+
 ## 4. Find duplicates and related issues
 
 - A **duplicate** describes the same problem or request with strong supporting
