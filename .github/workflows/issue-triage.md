@@ -76,15 +76,15 @@ repository context. Do not invent missing details.
 
 ## 2. Assess completeness
 
-1. The evidence required would be to collect output from the issue state or screenshots to prove what is the issue. 
-2. If essential information is missing, then the issue should be marked with label missing-info
-
 <!-- TODO 2A:
 Define the evidence required for a bug and for a feature or task.
 Define what the workflow should do when essential information is missing.
 -->
 
-If the issue is clearly spam, gibberish, or a test submission, apply `spam` or
+1. The evidence required would be to collect output from the issue state or screenshots to prove what is the issue for a bug. It should include the OS version, hardware plaform, browser type etc. It should have steps to reproduce. 
+2. For a new feature, we need information about what is the feature, the required functionality change, how it should look etc.
+3. If any essential information is missing, then the issue should be marked with label `needs-info` label
+4. If the issue is clearly spam, gibberish, or a test submission, apply `spam` or
 `invalid` when available, explain the assessment briefly, and stop.
 
 ## 3. Classify and prioritize
