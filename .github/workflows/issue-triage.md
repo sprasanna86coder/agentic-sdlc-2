@@ -138,7 +138,6 @@ Suggest one focused next step when the evidence supports it.
 
 ## 7. Report
 
-<!-- TODO 3:
 Define a concise maintainer-facing report containing:
 - a 1–2 sentence summary
 - type and priority with brief evidence
@@ -150,4 +149,4 @@ Define a concise maintainer-facing report containing:
 For an incomplete issue, replace speculative classification with focused
 clarifying questions while retaining the routing recommendation and approval
 status when supported. Keep the entire comment under 300 words.
--->
+
