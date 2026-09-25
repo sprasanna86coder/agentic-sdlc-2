@@ -38,6 +38,16 @@ safe-outputs:
       - bug
       - feature
       - question
+      - needs-info
+      - duplicate
+      - invalid
+      - spam
+      - priority/p0
+      - priority/p1
+      - priority/p2
+      - suggested-team/workflows
+      - suggested-team/developer-experience
+      - suggested-team/support-triage
       # TODO 1: Add the labels needed for incomplete issues, duplicates,
       # invalid submissions, spam, priorities p0 through p2, and the three
       # suggested-team routing options.
@@ -65,6 +75,9 @@ repository context. Do not invent missing details.
    documented behavior or contribution requirements.
 
 ## 2. Assess completeness
+
+1. The evidence required would be to collect output from the issue state or screenshots to prove what is the issue. 
+2. If essential information is missing, then the issue should be marked with label missing-info
 
 <!-- TODO 2A:
 Define the evidence required for a bug and for a feature or task.
